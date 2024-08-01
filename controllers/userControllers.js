@@ -54,16 +54,26 @@ export const userLogin = async (req, res) => {
 
 
 
+// export const userLogout = (req, res) => {
+//     res.status(200).cookie("token", "", {
+//         expires: new Date(Date.now())
+//     }).json({
+//         success: true,
+//         message: "logout successfully"
+//     })
+// }
+
 export const userLogout = (req, res) => {
     res.status(200).cookie("token", "", {
-        expires: new Date(Date.now())
+        expires: new Date(Date.now()),
+        httpOnly: true,
+        sameSite: 'None', // Important for cross-origin requests
+        secure: true,     // Important for cross-origin requests
     }).json({
         success: true,
-        message: "logout successfully"
-    })
+        message: "Logout successfully"
+    });
 }
-
-
 
 export const getMyProfile = async (req, res) => {
     res.status(200).json({
