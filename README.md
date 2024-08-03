@@ -1,11 +1,11 @@
-# Entertainment App
+# IMDB Redesigned App
 
-The Entertainment App is a full-stack application designed to provide users with access to a vast collection of movies and TV shows, leveraging the Personal API for fetching media details. It features user authentication, media exploration, and personal bookmarks, offering a comprehensive and personalized media browsing experience.
+The IMDB Redesigned App is a full-stack application designed to provide users with access to a vast collection of movies and TV shows, leveraging the Personal API for fetching media details. It features user authentication, media exploration, and personal bookmarks, offering a comprehensive and personalized media browsing experience.
 
 ## Deployment
 
-- **Frontend:** :- https://entertainment-app-frontend-show.vercel.app/
-- **Backend:** :- https://back-entertainment.onrender.com/
+- **Frontend:** :- https://imbd-mongo-app.vercel.app/
+- **Backend:** :- https://backend-imdb.vercel.app/
 
 ## Important Links
 
@@ -159,60 +159,10 @@ The Entertainment App is a full-stack application designed to provide users with
 - CSS
 - Tailwind CSS
 - React.js
-- React Query
 - Javascript
 - Context API
 - React hook form
 - React Loader Spinner
-
-### Frontend Project Structure
-
-- **Assets:** Contains dummy image .
-- **Components:** Reusable components code .
-- **Context:** State mangement accross applicaton for authenticatin & bookmark.
-- **Pages:** Five main pages, Home, Movie, Tv, Bookmark, Profile.
-- **Utils:** Contains baseUrl of api & function to fetch media
-
-<pre>
-|-- src
-    |-- assets 
-    |-- Components
-        |-- AutoScrollCarousel.jsx  
-        |-- Loader.jsx  
-        |-- Navbar2.jsx  
-        |-- NormalCard.jsx  
-        |-- Rates.jsx  
-        |-- RatingSection.jsx  
-        |-- SearchBar.jsx  
-        |-- SingleCard.jsx  
-    |-- context
-        |-- Context.jsx
-        |-- State.jsx
-    |-- Pages
-        |-- BookMarkHelp.jsx
-        |-- BookMarks.jsx
-        |-- Home.jsx
-        |-- Login.jsx
-        |-- MovieDisplay.jsx
-        |-- Movies.jsx
-        |-- Register.jsx
-        |-- SearchPage.jsx
-        |-- TvShowDisplay.jsx
-        |-- TvShows.jsx
-    |-- Stylesheets
-        |-- LoaderStyle.css
-    |-- App.jsx 
-    |-- main.jsx 
-|-- .eslintrc.cjs
-|--.gitignore
-|-- index.css 
-|-- index.html
-|-- package.json
-|-- package-lock.json
-|-- postcss.config.js
-|-- tailwind.cofig.js
-|-- vite.config.js 
-</pre>
 
 ## Contributing
 

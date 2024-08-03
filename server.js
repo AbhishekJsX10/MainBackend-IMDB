@@ -22,7 +22,7 @@ mongoose.connect( process.env.MONGODB_URL, { // connecting mongodb
 app.use(Express.json())  // middleware to use json
 app.use(cookieParser()) // middleware for cookie parser 
 app.use(cors({
-    origin : process.env.FRONTEND_URL,
+    origin : "https://imbd-mongo-app.vercel.app" || process.env.FRONTEND_URL,
     methods :["GET", "POST", "PUT", "DELETE"],
     credentials : true
 }))
