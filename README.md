@@ -9,7 +9,7 @@ The IMDB Redesigned App is a full-stack application designed to provide users wi
 
 ## Important Links
 
-- API Documentation : https://documenter.getpostman.com/view/32328160/2sA3JJAiQg
+- API Documentation : https://documenter.getpostman.com/view/32328160/2sA3rwNETw
 - Database Design: [Google Docs Link](https://docs.google.com/document/d/1DEoH1G6ucIP3hkTpAg6_QE7NjipAojlucyWJHhyk7Bg/edit?usp=sharing)
 - Best Practices : [Google Docs Link](https://docs.google.com/document/d/1gpsxJt2ORMTbFzmMjzzby_3DhWvN5fkvGZrAOATw4pk/edit?usp=sharing)
 
@@ -41,6 +41,7 @@ The IMDB Redesigned App is a full-stack application designed to provide users wi
 2.  **Navigate to the Backend Directory:** Move into the backend directory of the project.
 
     ```sh
+    cd main-backend
     ```
 
 3.  **Install Dependencies:** Install the necessary dependencies using npm.
@@ -129,6 +130,8 @@ The IMDB Redesigned App is a full-stack application designed to provide users wi
 1. **Navigate to the Frontend Directory:** Move into the frontend directory of the project.
 
    ```sh
+   cd..
+   cd/imdb-redesign
    ```
 
 2. **Install Dependencies:** Install the necessary dependencies using npm.
